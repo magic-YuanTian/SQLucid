@@ -1,8 +1,16 @@
 
 # SQLucid
-The repo for SQLucid
+This repo includes code for the UIST'24 paper: **SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**
 
-SQLucid is an interactive interface for code generation. The frontend is based on [React](https://react.dev/), and the backend is based on [Flask](https://flask.palletsprojects.com/en/3.0.x/) and another project named [STEPS](https://github.com/magic-YuanTian/STEPS).
+SQLucid is an interactive interface for SQL generation, based on three key features:
+- (1) Editable step-by-step SQL explanations in natural
+- (2) Intermediate query results
+- (3) Visual correspondence
+
+which bridges the gap between non-expert users and complex database querying processes.
+
+
+The frontend is based on [React](https://react.dev/), and the backend is based on [Flask](https://flask.palletsprojects.com/en/3.0.x/) and another project named [STEPS](https://github.com/magic-YuanTian/STEPS).
 
 ## How to set up the project
 The entire project folder is large (around 5GB) including 2 pre-trained models and database files. You can choose to clone file locally and manually install corresponding files.
