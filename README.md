@@ -7,6 +7,9 @@ SQLucid is an interactive interface for SQL generation, based on three key featu
 - (2) Intermediate query results
 - (3) Visual correspondence
 
+![SQLucid_UI](https://github.com/user-attachments/assets/faba7992-5793-490e-a0cf-0d45819163b9)
+
+
 which bridges the gap between non-expert users and complex database querying processes.
 
 
