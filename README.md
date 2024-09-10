@@ -12,7 +12,7 @@ The entire project folder is large (around 5GB) including 2 pre-trained models a
 - For the backend, please use `pip install` for any missing packages. If you encounter any issues, please check the detailed environment [here](https://github.com/OhadRubin/SmBop).
 
 
-But now you can also directly download the entire project folder through [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/Ee2FCOD3QHtEiG6mEmZ2CtwBbk8x9hMRZ6d3aU6W3Xii_Q?e=XVWXYO)
+**Suggested option**: You can also directly download the entire project folder through [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/Ee2FCOD3QHtEiG6mEmZ2CtwBbk8x9hMRZ6d3aU6W3Xii_Q?e=XVWXYO)
 
 ## How to run
 You should run the frontend and the backend in parallel.
