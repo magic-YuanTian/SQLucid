@@ -1,6 +1,6 @@
 
 # SQLucid
-This repo includes code for the UIST'24 paper: **SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**
+This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://arxiv.org/pdf/2409.06178)
 
 SQLucid is an interactive interface for SQL generation, based on three key features:
 - (1) Editable step-by-step SQL explanations in natural
