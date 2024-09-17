@@ -44,14 +44,12 @@ python3 run.py
 Then, you can access SQLucid at `localhost:3000`
 
 
-[**Demo website**](http://54.165.238.20:3500/)
+# [Demo Website here](http://54.165.238.20:3500/)
 
 *The demo website is in version 2.0 based on ChatGPT. We will release the code soon.*
 
+-----
 
-**This repository is being updated**
-
-
-Please email tian211@purdue.edu for any questions.
+This repo is still in update. Please email tian211@purdue.edu for any questions.
 
 
