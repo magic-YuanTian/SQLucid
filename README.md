@@ -1,6 +1,11 @@
 
 # SQLucid
-This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://arxiv.org/pdf/2409.06178)
+This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://dl.acm.org/doi/abs/10.1145/3654777.3676368)
+
+# [Demo Website](http://54.165.238.20:3500/)
+
+*(Version 2.0, based on Chat-GPT, code for this version will be released shortly).*
+
 
 SQLucid is an interactive interface for SQL generation, based on three key features:
 - (1) Editable step-by-step SQL explanations in natural
@@ -44,9 +49,6 @@ python3 run.py
 Then, you can access SQLucid at `localhost:3000`
 
 
-# [Demo Website here](http://54.165.238.20:3500/)
-
-*The demo website is in version 2.0 based on ChatGPT. We will release the code soon.*
 
 -----
 
