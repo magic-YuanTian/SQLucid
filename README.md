@@ -4,7 +4,7 @@ This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Lan
 
 # :globe_with_meridians: [Demo Website](http://54.165.238.20:3500/)
 
-*(Version 2.0, based on Chat-GPT, code for this version will be released shortly).*
+*(Version 2.0, based on ChatGPT, code for this version will be released shortly).*
 
 
 SQLucid is an interactive interface for SQL generation, based on three key features:
