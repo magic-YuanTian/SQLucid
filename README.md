@@ -37,7 +37,8 @@ Note that the repo lacks some large files. You can choose to clone files locally
 
 To support a more lightweight and up-to-date implementation, the latest version is powered by ChatGPT with a polished UI. 
 You can download the entire project folder at [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/ESMZ-VgHhoFGuQl-w96EcSQBp1m0zqt6t3zVI8yiDaj14A?e=b0CTOR)
-Then you only need to implement your own API for calling ChatGPT at `openai_api.py`.
+Then you only need to implement your own OpenAI API at `openai_api.py`, where the `get_openai_response()` method takes a string prompt and returns a string response.
+
 
 
 
