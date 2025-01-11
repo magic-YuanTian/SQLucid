@@ -4,7 +4,7 @@ This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Lan
 
 # :globe_with_meridians: [Demo Website](http://44.211.226.67:3502/)
 
-*(Version 2.0, based on ChatGPT, code for this version will be released shortly).*
+*(Version 2.0, based on ChatGPT.*
 
 
 SQLucid is an interactive interface for SQL generation, based on three key features:
@@ -20,38 +20,47 @@ which bridges the gap between non-expert users and complex database querying pro
 
 The frontend is based on [React](https://react.dev/), and the backend is based on [Flask](https://flask.palletsprojects.com/en/3.0.x/) and another project named [STEPS](https://github.com/magic-YuanTian/STEPS).
 
-## How to set up the project
-The entire project folder is large (around 5GB) including 2 pre-trained models and database files. The repo lacks some large files. You can choose to clone files locally and manually deploy them.
 
-- For the frontend, you can run `npm install` (and other prompted missing packages) to install related packages under the frontend folder.
+# Implementation
 
-- For the backend, please use `pip install` for any missing packages. If you encounter any issues, please check the detailed environment [here](https://github.com/OhadRubin/SmBop). Furthermore, you need to use text-to-SQL and text-to-clause models used in [STEPS](https://github.com/magic-YuanTian/STEPS).
+This project offers two versions with different deployment approaches and requirements:
+
+## V1 (Original Version)
+
+The original version (V1) leverages 2 fine-tuned language models. The entire project folder is relatively large-sized (around 5GB) including 2 fine-tuned models and database files. 
+Note that the repo lacks some large files. You can choose to clone files locally and manually deploy them. Please refer to [STEPS](https://github.com/magic-YuanTian/STEPS) for more details on deployment. 
+- You can download the entire project folder at [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/Ee2FCOD3QHtEiG6mEmZ2CtwBbk8x9hMRZ6d3aU6W3Xii_Q?e=XVWXYO)
 
 
-**Suggested option**: To save your time, you can directly download the entire project folder through [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/Ee2FCOD3QHtEiG6mEmZ2CtwBbk8x9hMRZ6d3aU6W3Xii_Q?e=XVWXYO)
+
+## V2 (Latest Version)
+
+To support a more lightweight and up-to-date implementation, the latest version is powered by ChatGPT with a polished UI. 
+You can download the entire project folder at [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/ESMZ-VgHhoFGuQl-w96EcSQBp1m0zqt6t3zVI8yiDaj14A?e=b0CTOR)
+Then you only need to implement your own API for calling ChatGPT at `openai_api.py`.
+
+
 
 ## How to run
-You should run the frontend and the backend in parallel.
+You should run the *frontend* and the *backend* in parallel.
 
 First, start a terminal and run the following command:
 
 ```
-cd SQLucid
 cd frontend
+PORT=3000 npm start
 ```
 
-Then, start another terminal and run
+Second, start another terminal and run
 
 ```
-python3 run.py
+python run.py
 ```
 
-Then, you can access SQLucid at `localhost:3000`
+Finally, you can access SQLucid at `localhost:3000`
 
 
 
 -----
 
-This repo is still in update. Please email tian211@purdue.edu for any questions.
-
-
+Please email tian211@purdue.edu for any questions. Thanks!
