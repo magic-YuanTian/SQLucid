@@ -28,7 +28,10 @@ This project offers two versions with different deployment approaches and requir
 ## V1 (Original Version)
 
 The original version (V1) leverages 2 fine-tuned language models. The entire project folder is relatively large-sized (around 5GB) including 2 fine-tuned models and database files. 
-Note that the repo lacks some large files. You can choose to clone files locally and manually deploy them. Please refer to [STEPS](https://github.com/magic-YuanTian/STEPS) for more details on deployment. 
+Note that the repo lacks some large files. You can choose to clone files locally and manually deploy them. 
+
+- Please refer to [STEPS](https://github.com/magic-YuanTian/STEPS) for more details on deployment. 
+
 - You can download the entire project folder at [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/Ee2FCOD3QHtEiG6mEmZ2CtwBbk8x9hMRZ6d3aU6W3Xii_Q?e=XVWXYO)
 
 
@@ -36,8 +39,10 @@ Note that the repo lacks some large files. You can choose to clone files locally
 ## V2 (Latest Version)
 
 To support a more lightweight and up-to-date implementation, the latest version is powered by ChatGPT with a polished UI. 
-You can download the entire project folder at [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/ESMZ-VgHhoFGuQl-w96EcSQBp1m0zqt6t3zVI8yiDaj14A?e=b0CTOR)
-Then you only need to implement your own OpenAI API at `openai_api.py`, where the `get_openai_response()` method takes a string prompt and returns a string response.
+
+- You can download the entire project folder at [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/ESMZ-VgHhoFGuQl-w96EcSQBp1m0zqt6t3zVI8yiDaj14A?e=b0CTOR).
+
+- Then you only need to implement your own OpenAI API at `openai_api.py`, where the `get_openai_response()` method takes a string prompt and returns a string response.
 
 
 
