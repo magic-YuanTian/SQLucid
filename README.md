@@ -2,7 +2,7 @@
 # SQLucid
 This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://dl.acm.org/doi/abs/10.1145/3654777.3676368)
 
-# :globe_with_meridians: [Demo Website](http://44.211.226.67:3503/)
+# :globe_with_meridians: [Demo Website](http://44.211.226.67:3502/)
 
 *(Version 2.0, based on ChatGPT, code for this version will be released shortly).*
 
