@@ -1,0 +1,159 @@
+<!--
+Project: SQLucid
+Author: Yuan Tian
+Github: https://github.com/magic-YuanTian/SQLucid
+-->
+
+
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; width: 100%;">
+
+<head>
+  <title>SQLucid</title>
+  <!-- Fonts to support Material Design -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <!-- Icons to support Material Design -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone" />
+  <script crossorigin="anonymous" src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin="anonymous" src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script crossorigin="anonymous" src="https://unpkg.com/@mui/material@v5/umd/material-ui.development.js"></script>
+  <script crossorigin="anonymous"
+    src="https://unpkg.com/chat-ui-react@latest/dist/browser/chat-ui-react.umd.polyfill.js"></script>
+  <script crossorigin="anonymous" src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+  <link rel="stylesheet" href="/path/to/styles/theme-name.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Droid+Sans+Mono" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- highlight-within-textarea CSS/JS -->
+  <link href="../src/highlight_jQuery/jquery.highlight-within-textarea.css" rel="stylesheet">
+  <script src="../src/highlight_jQuery/jquery.highlight-within-textarea.js"></script>
+
+  <style>
+    .body {
+      background: red;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+
+    th {
+      text-align: center;
+      /** horizontally centric */
+      vertical-align: middle;
+      /** vertically centric */
+    }
+
+    /* Changes outline to blue */
+    RichTextarea:focus {
+      outline-style: dashed;
+      outline-width: 2px;
+      outline-color: rgb(156, 156, 209);
+      /* background-color: white; */
+    }
+
+
+
+
+    .hoverShow:hover {
+      background-color: rgb(235, 235, 235);
+      border-radius: 25px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-color: 0.3s ease;
+    }
+
+    .hoverShow {
+      padding-top: 12px;
+      padding-right: 5px;
+      padding-bottom: 8px;
+      padding-left: 5px;
+    }
+
+    .hoverShow .icons {
+      display: none;
+    }
+
+    .hoverShow:hover .icons {
+      display: inline;
+    }
+
+    .amazingBorder {
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+
+
+
+    
+
+    .explanationBorder {
+      padding: 0.6rem;
+      border-radius: 1.5rem;
+      border-left: 0 solid #009dff;
+      border-right: 0 solid #009dff;
+      border-top: 0 solid #009dff;
+      border-bottom: 0 solid #009dff;
+      transition: border-top 100ms ease-in-out, padding-top 100ms ease-in-out, border-bottom 100ms ease-in-out, padding-bottom 100ms ease-in-out;
+    }
+
+    
+
+    .hljs-keyword {
+      color: #910303;
+    }
+
+    .zooming {
+      zoom: 100%;
+    }
+
+    .editor {
+      width: 370px;
+      height: 100px;
+      padding: 10px;
+      background-color: rgb(237, 229, 229);
+      color: rgb(59, 52, 52);
+      font-size: 11px;
+      font-family: monospace;
+    }
+
+    .testText {
+      /* width: 400px;
+      height: 100px;
+      padding: 10px; */
+      background-color: rgb(160, 221, 91);
+      color: rgb(30, 26, 146);
+      font-size: 24px;
+      /* font-family: monospace; */
+    }
+  </style>
+
+</head>
+
+<body
+  style="overflow:hidden; height: 100%; min-width: 500px; min-height: 300px; background: rgb(212, 212, 212); margin: 0px; padding: 0px;">
+
+  <!-- <pre><code class="sql">SELECT park.city FROM player INTERSECT SELECT park.city FROM park</code></pre> -->
+
+  <div id="root" style="height: 100%; " }></div>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script type="text/babel">
+  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script>
+    // document.getElementsByTagName('body')[0].style.zoom = 1.15
+
+  </script>
+
+</body>
+
+</html>

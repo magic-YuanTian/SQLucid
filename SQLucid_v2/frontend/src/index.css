@@ -1,0 +1,21 @@
+
+.html {
+    height: 100%;
+}
+
+.body {
+    height: 100%;
+}
+
+.div {
+    height: 100%;
+}
+
+#mainChatBox {
+    width: 100%;
+    min-height: 10vh;
+    height: 45vh;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
