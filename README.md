@@ -4,7 +4,7 @@ This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Lan
 
 # :globe_with_meridians: [Demo Website](http://44.211.226.67:3502/)
 
-*(Version 2.0, based on ChatGPT.*
+*(Version 2.0, based on ChatGPT)*
 
 
 SQLucid is an interactive interface for SQL generation, based on three key features:
@@ -21,11 +21,11 @@ which bridges the gap between non-expert users and complex database querying pro
 The frontend is based on [React](https://react.dev/), and the backend is based on [Flask](https://flask.palletsprojects.com/en/3.0.x/) and another project named [STEPS](https://github.com/magic-YuanTian/STEPS).
 
 
-# Implementation
+## ✨ Implementation
 
 This project offers two versions with different deployment approaches and requirements:
 
-## V1 (Original Version)
+### V1 (Original Version)
 
 The original version (V1) leverages 2 fine-tuned language models. The entire project folder is relatively large-sized (around 5GB) including 2 fine-tuned models and database files. 
 Note that the repo lacks some large files. You can choose to clone files locally and manually deploy them. 
@@ -36,7 +36,7 @@ Note that the repo lacks some large files. You can choose to clone files locally
 
 
 
-## V2 (Latest Version)
+### V2 (Latest Version)
 
 To support a more lightweight and up-to-date implementation, the latest version is powered by ChatGPT with a polished UI. 
 
@@ -46,9 +46,8 @@ To support a more lightweight and up-to-date implementation, the latest version 
 
 
 
-
-## How to run
-You should run the *frontend* and the *backend* in parallel.
+## 🚀 Quick Start
+After you deploy the project folder, you should run the *frontend* and the *backend* in parallel.
 
 First, start a terminal and run the following command:
 
@@ -66,6 +65,37 @@ python run.py
 Finally, you can access SQLucid at `localhost:3000`
 
 
+## ⚖️ License
+
+
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+
+
+## 📚 Citation
+
+If you find this work helpful, please cite our paper:
+
+```bibtex
+@inproceedings{10.1145/3654777.3676368,
+    author = {Tian, Yuan and Kummerfeld, Jonathan K. and Li, Toby Jia-Jun and Zhang, Tianyi},
+    title = {SQLucid: Grounding Natural Language Database Queries with Interactive Explanations},
+    year = {2024},
+    isbn = {9798400706288},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3654777.3676368},
+    doi = {10.1145/3654777.3676368},
+    abstract = {Though recent advances in machine learning have led to significant improvements in natural language interfaces for databases, the accuracy and reliability of these systems remain limited, especially in high-stakes domains. This paper introduces SQLucid, a novel user interface that bridges the gap between non-expert users and complex database querying processes. SQLucid addresses existing limitations by integrating visual correspondence, intermediate query results, and editable step-by-step SQL explanations in natural language to facilitate user understanding and engagement. This unique blend of features empowers users to understand and refine SQL queries easily and precisely. Two user studies and one quantitative experiment were conducted to validate SQLucid’s effectiveness, showing significant improvement in task completion accuracy and user confidence compared to existing interfaces. Our code is available at https://github.com/magic-YuanTian/SQLucid.},
+    booktitle = {Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
+    articleno = {12},
+    numpages = {20},
+    keywords = {Databases, Explanations, Natural Language Interfaces},
+    location = {Pittsburgh, PA, USA},
+    series = {UIST '24}
+}
+```
 
 -----
 
