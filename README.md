@@ -1,14 +1,17 @@
 
 # SQLucid
-This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://dl.acm.org/doi/abs/10.1145/3654777.3676368)
+
+SQLucid is an interactive interface for SQL generation, presented in the UIST'24 paper: [**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://dl.acm.org/doi/abs/10.1145/3654777.3676368).
+
 
 ## 🌐 Demo
+### [>> Try our live demo! <<](http://44.211.226.67:3502/)
 
-Try our live demo at [this link](http://44.211.226.67:3502/) *(Version 2.0, powered by ChatGPT)*.
+
 
 ## 📌 Overview
 
-SQLucid is an interactive SQL generation tool, which bridges the gap between non-expert users and complex database querying processes through three key features:
+SQLucid bridges the gap between non-expert users and complex database querying processes through three key features:
 1. Editable step-by-step SQL explanations in natural language
 2. Intermediate query results visualization
 3. Visual correspondence highlighting
