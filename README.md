@@ -31,7 +31,7 @@ We offer two versions with different deployment approaches:
 This version is the one originally described in our paper.
 
 - Includes a [text-to-SQL model](https://github.com/OhadRubin/SmBop) and our fine-tuned text-to-clause model.
-- Project size: ~5GB (including models and database files)
+- Project size: ~5GB (including 2 fine-tuned models and database files)
 - For full backend deployment details, visit [STEPS](https://github.com/magic-YuanTian/STEPS)
 - Download complete project (recommended): [V1 Download Link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/Ee2FCOD3QHtEiG6mEmZ2CtwBbk8x9hMRZ6d3aU6W3Xii_Q?e=XVWXYO)
 
@@ -39,7 +39,7 @@ This version is the one originally described in our paper.
 To support a more lightweight and up-to-date implementation, the latest version is powered by ChatGPT with a polished UI. 
 
 - Powered by ChatGPT with enhanced UI
-- More Lightweight (~400MB)
+- More lightweight project: ~400MB
 - Download complete project: [V2 Download Link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/ESMZ-VgHhoFGuQl-w96EcSQBp1m0zqt6t3zVI8yiDaj14A?e=b0CTOR)
 - Requires: Implementation of OpenAI API in `openai_api.py`, where the `get_openai_response()` method takes a string prompt and returns a string response.
 
