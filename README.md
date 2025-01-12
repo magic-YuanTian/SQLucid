@@ -2,47 +2,43 @@
 # SQLucid
 This repo includes code for the UIST'24 paper: [**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://dl.acm.org/doi/abs/10.1145/3654777.3676368)
 
-# :globe_with_meridians: [Demo Website](http://44.211.226.67:3502/)
+## 🌐 Demo
 
-*(Version 2.0, based on ChatGPT)*
+Try our live demo at [this link](http://44.211.226.67:3502/) *(Version 2.0, powered by ChatGPT)*.
 
+## 📌 Overview
 
-SQLucid is an interactive interface for SQL generation, based on three key features:
-- (1) Editable step-by-step SQL explanations in natural
-- (2) Intermediate query results
-- (3) Visual correspondence
+SQLucid is an interactive SQL generation tool, which bridges the gap between non-expert users and complex database querying processes through three key features:
+1. Editable step-by-step SQL explanations in natural language
+2. Intermediate query results visualization
+3. Visual correspondence highlighting
 
 ![SQLucid_UI](https://github.com/user-attachments/assets/faba7992-5793-490e-a0cf-0d45819163b9)
 
-
-which bridges the gap between non-expert users and complex database querying processes.
-
-
-The frontend is based on [React](https://react.dev/), and the backend is based on [Flask](https://flask.palletsprojects.com/en/3.0.x/) and another project named [STEPS](https://github.com/magic-YuanTian/STEPS).
+The project is built with:
+- Frontend: [React](https://react.dev/)
+- Backend: [Flask](https://flask.palletsprojects.com/en/3.0.x/) and [STEPS](https://github.com/magic-YuanTian/STEPS)
 
 
-## ✨ Implementation
+## 💫 Implementation
 
-This project offers two versions with different deployment approaches and requirements:
+We offer two versions with different deployment approaches:
 
 ### V1 (Original Version)
+This version is the one originally described in our paper.
 
-The original version (V1) leverages 2 fine-tuned language models. The entire project folder is relatively large-sized (around 5GB) including 2 fine-tuned models and database files. 
-Note that the repo lacks some large files. You can choose to clone files locally and manually deploy them. 
-
-- Please refer to [STEPS](https://github.com/magic-YuanTian/STEPS) for more details on deployment. 
-
-- You can download the entire project folder at [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/Ee2FCOD3QHtEiG6mEmZ2CtwBbk8x9hMRZ6d3aU6W3Xii_Q?e=XVWXYO)
-
-
+- Includes a [text-to-SQL model](https://github.com/OhadRubin/SmBop) and our fine-tuned text-to-clause model.
+- Project size: ~5GB (including models and database files)
+- For full backend deployment details, visit [STEPS](https://github.com/magic-YuanTian/STEPS)
+- Download complete project (recommended): [V1 Download Link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/Ee2FCOD3QHtEiG6mEmZ2CtwBbk8x9hMRZ6d3aU6W3Xii_Q?e=XVWXYO)
 
 ### V2 (Latest Version)
-
 To support a more lightweight and up-to-date implementation, the latest version is powered by ChatGPT with a polished UI. 
 
-- You can download the entire project folder at [this link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/ESMZ-VgHhoFGuQl-w96EcSQBp1m0zqt6t3zVI8yiDaj14A?e=b0CTOR).
-
-- Then you only need to implement your own OpenAI API at `openai_api.py`, where the `get_openai_response()` method takes a string prompt and returns a string response.
+- Powered by ChatGPT with enhanced UI
+- More Lightweight (~400MB)
+- Download complete project: [V2 Download Link](https://purdue0-my.sharepoint.com/:u:/g/personal/tian211_purdue_edu/ESMZ-VgHhoFGuQl-w96EcSQBp1m0zqt6t3zVI8yiDaj14A?e=b0CTOR)
+- Requires: Implementation of OpenAI API in `openai_api.py`, where the `get_openai_response()` method takes a string prompt and returns a string response.
 
 
 
