@@ -1,13 +1,21 @@
 
+
 # SQLucid
 
-SQLucid is an interactive interface for SQL generation, presented in the UIST'24 paper: 
+**SQLucid** is an interactive interface for natural language to SQL generation, introduced in our UIST 2024 paper:
 
-[**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://dl.acm.org/doi/abs/10.1145/3654777.3676368).
+🎓 [**SQLucid: Grounding Natural Language Database Queries with Interactive Explanations**](https://dl.acm.org/doi/abs/10.1145/3654777.3676368)
+
+This system enables users to better understand, correct, and refine SQL queries through human-in-the-loop interaction and grounded explanations.
+
 
 
 ## 🌐 Demo
-### [>> Try our live demo! <<](http://44.211.226.67:3502/)
+
+🚀 [Try the Live Demo](http://44.211.226.67:3503/)
+
+🎬 [Watch Demo Video](https://www.youtube.com/watch?v=YxjeMcLrLro)
+
 
 
 
