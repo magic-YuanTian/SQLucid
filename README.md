@@ -12,7 +12,7 @@ This system enables users to better understand, correct, and refine SQL queries 
 
 ## 🌐 Demo
 
-🚀 [Try the Live Demo](http://44.211.226.67:3503/)
+🚀 [Try the Live Demo](http://44.211.226.67:3501/)
 
 🎬 [Watch Demo Video](https://www.youtube.com/watch?v=YxjeMcLrLro)
 
